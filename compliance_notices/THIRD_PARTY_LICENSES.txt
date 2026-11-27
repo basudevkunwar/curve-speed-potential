@@ -1,0 +1,150 @@
+===============================================================================
+CURVE SPEED POTENTIAL ASSESSMENT TOOL
+Version 2.7.2
+Independently Developed — Unofficial Software
+Developed by Basudev Kunwar
+===============================================================================
+
+THIRD-PARTY OPEN SOURCE SOFTWARE LICENSES & NOTICES
+
+This portable distribution bundles runtime libraries, graphics engines, and
+components from third-party open-source projects. Each component is redistributed
+under its respective open-source license. Complete copies of all applicable
+license texts are provided in the 'THIRD_PARTY_LICENSES/' directory.
+
+-------------------------------------------------------------------------------
+1. Python Runtime (CPython 3.14.7)
+License: Python Software Foundation (PSF) License Agreement
+Copyright (c) 2001-2026 Python Software Foundation. All Rights Reserved.
+Text: THIRD_PARTY_LICENSES/CPython-PSF-3.14.txt
+Source: https://www.python.org/
+
+-------------------------------------------------------------------------------
+2. PySide6 & Shiboken6 (Qt 6.12.0 bindings for Python)
+License: GNU Lesser General Public License (LGPL) version 3
+Copyright (C) 2026 The Qt Company Ltd. and other contributors.
+This distribution utilizes dynamically linked PySide6 and Shiboken6 C-extension
+libraries (*.pyd) without proprietary source code embedding.
+Users may replace these shared libraries with compatible versions per LGPLv3.
+Text: THIRD_PARTY_LICENSES/LGPLv3.txt, THIRD_PARTY_LICENSES/GPLv3.txt, and THIRD_PARTY_LICENSES/Qt-GPL-exception-1.0.txt
+Source: See OPEN_SOURCE_SOURCE_ACCESS.txt and release asset PySide6-Shiboken6-v6.12.0-Corresponding-Source.zip
+
+-------------------------------------------------------------------------------
+3. Qt GUI Toolkit (v6.12.0)
+License: GNU Lesser General Public License (LGPL) version 3
+Copyright (C) 2026 The Qt Company Ltd. and other contributors.
+Modules bundled: QtCore, QtGui, QtWidgets, QtNetwork, QtSvg, QtPdf.
+No GPL-only Qt components (e.g. Qt Charts, Qt CoAP, Qt Network Auth) are bundled.
+All Qt modules are linked dynamically as shared libraries (*.dll).
+Qt build tools and moc/uic include the Qt GPL Exception 1.0.
+Text: THIRD_PARTY_LICENSES/LGPLv3.txt, THIRD_PARTY_LICENSES/Qt-GPL-exception-1.0.txt
+Source: See OPEN_SOURCE_SOURCE_ACCESS.txt
+
+-------------------------------------------------------------------------------
+4. OpenSSL (v3.5.7)
+License: Apache License, Version 2.0
+Copyright (c) 1998-2026 The OpenSSL Project Authors. All rights reserved.
+Text: THIRD_PARTY_LICENSES/OpenSSL.txt and THIRD_PARTY_LICENSES/Apache-2.0.txt
+Website: https://www.openssl.org/
+
+-------------------------------------------------------------------------------
+5. SQLite Database Engine (v3.50.4)
+License: Public Domain (Blessing)
+SQLite is in the Public Domain.
+Text: THIRD_PARTY_LICENSES/SQLite3_Public_Domain.txt
+Website: https://www.sqlite.org/
+
+-------------------------------------------------------------------------------
+6. Matplotlib (v3.11.2)
+License: Matplotlib License (PSF-based permissive license)
+Copyright (c) 2002-2012 John D. Hunter; 2012-2026 The Matplotlib development team.
+Text: THIRD_PARTY_LICENSES/matplotlib_LICENSE
+Website: https://matplotlib.org/
+
+-------------------------------------------------------------------------------
+7. NumPy (v2.5.4)
+License: BSD 3-Clause License
+Copyright (c) 2005-2026, NumPy Developers.
+Text: THIRD_PARTY_LICENSES/numpy_LICENSE.txt
+Website: https://numpy.org/
+
+-------------------------------------------------------------------------------
+8. pyPDF (v6.21.2)
+License: BSD 3-Clause License
+Copyright (c) 2006-2008 Mathieu Fenniak; 2022-2026 pyPDF contributors.
+Text: THIRD_PARTY_LICENSES/pypdf_LICENSE
+Website: https://pypdf.readthedocs.io/
+
+-------------------------------------------------------------------------------
+9. Pillow (PIL Fork, v13.0.0)
+License: Historical Permission Notice and Disclaimer (HPND)
+Copyright (c) 1997-2026 by Secret Labs AB and Jeffrey A. Clark.
+Text: THIRD_PARTY_LICENSES/pillow_LICENSE
+Website: https://python-pillow.org/
+
+-------------------------------------------------------------------------------
+10. OpenPyXL (v3.1.5)
+License: MIT License
+Copyright (c) 2010 openpyxl
+Text: THIRD_PARTY_LICENSES/openpyxl_LICENCE.rst
+Website: https://openpyxl.readthedocs.io/
+
+-------------------------------------------------------------------------------
+11. et_xmlfile (v2.0.0)
+License: MIT License
+Copyright (c) 2010 et_xmlfile
+Text: THIRD_PARTY_LICENSES/et-xmlfile_LICENCE.rst
+
+-------------------------------------------------------------------------------
+12. ContourPy (v1.4.0)
+License: BSD 3-Clause License
+Copyright (c) 2021-2026 ContourPy Developers.
+Text: THIRD_PARTY_LICENSES/contourpy_LICENSE
+
+-------------------------------------------------------------------------------
+13. KiwiSolver (v1.5.1)
+License: BSD 3-Clause License
+Copyright (c) 2013-2026, Nucleic Development Team.
+Text: THIRD_PARTY_LICENSES/kiwisolver_LICENSE
+
+-------------------------------------------------------------------------------
+14. FontTools (v4.67.0)
+License: MIT License
+Copyright (c) 1999-2026 Just van Rossum, Letterror; FontTools contributors.
+Text: THIRD_PARTY_LICENSES/fonttools_LICENSE
+
+-------------------------------------------------------------------------------
+15. python-dateutil (v3.0.0)
+License: Apache License 2.0 & Dual BSD
+Copyright (c) 2003-2011 Gustavo Niemeyer; 2012-2026 Tomi Pieviläinen, Yaron de Leeuw.
+Text: THIRD_PARTY_LICENSES/python-dateutil_LICENSE
+
+-------------------------------------------------------------------------------
+16. zstandard (v0.25.0)
+License: BSD 3-Clause License
+Copyright (c) 2016-2026 Gregory Szorc.
+Text: THIRD_PARTY_LICENSES/zstandard_LICENSE
+
+-------------------------------------------------------------------------------
+17. libffi (v3.4.6)
+License: MIT License
+Copyright (c) 1996-2026 Anthony Green, Red Hat, Inc and others.
+Text: THIRD_PARTY_LICENSES/libffi_LICENSE.txt
+
+-------------------------------------------------------------------------------
+18. Microsoft Visual C++ Runtime (MSVC 14.44)
+License: Microsoft Software License Terms (Visual Studio 2022 Redistributable)
+Copyright (c) Microsoft Corporation. All rights reserved.
+Text: THIRD_PARTY_LICENSES/MSVC_REDIST_EULA.txt
+
+-------------------------------------------------------------------------------
+19. Bundled Fonts
+- DejaVu Sans / DejaVu Serif: Bitstream Vera & Arev Fonts License
+  Text: THIRD_PARTY_LICENSES/matplotlib_LICENSE_DEJAVU
+- STIX Fonts: SIL Open Font License 1.1
+  Text: THIRD_PARTY_LICENSES/matplotlib_LICENSE_STIX
+
+===============================================================================
+For complete corresponding open-source source code access, please refer to
+'OPEN_SOURCE_SOURCE_ACCESS.txt'.
+===============================================================================

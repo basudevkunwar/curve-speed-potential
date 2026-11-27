@@ -1,0 +1,135 @@
+===============================================================================
+CURVE SPEED POTENTIAL ASSESSMENT TOOL
+Version 2.7.2
+Independently Developed — Unofficial Software
+Developed by Basudev Kunwar
+===============================================================================
+
+OPEN SOURCE CORRESPONDING LIBRARY SOURCE CODE ACCESS
+
+In strict compliance with the requirements of the GNU Lesser General Public License
+(LGPL) version 3 (Section 4), the GNU General Public License (GPL) version 3 (Section 6),
+and the Python Software Foundation License, this document specifies the verified
+mechanisms for obtaining complete, unmodified corresponding source code for all
+third-party libraries bundled with this binary distribution.
+
+-------------------------------------------------------------------------------
+1. NO PROPRIETARY MODIFICATIONS TO UPSTREAM LIBRARIES
+-------------------------------------------------------------------------------
+The developer certifies that:
+- PySide6 (v6.12.0), Shiboken6 (v6.12.0), and Qt (v6.12.0) are bundled as official,
+  unmodified binary builds.
+- Zero private patches, proprietary alterations, or hidden modifications were made
+  to the source code of PySide6, Shiboken6, Qt, OpenPyXL, Matplotlib, or NumPy.
+- All LGPL components are dynamically linked as shared libraries (*.dll and *.pyd)
+  and can be substituted by users.
+
+-------------------------------------------------------------------------------
+2. DEDICATED RELEASE ASSET: CORRESPONDING SOURCE ARCHIVE
+-------------------------------------------------------------------------------
+To ensure complete compliance under GNU LGPLv3 / GPLv3 Section 6(d) without relying
+solely on external third-party links or conditional written offers, the complete
+corresponding source code for the exact distributed build of PySide6 and Shiboken6
+has been packaged as a standalone release asset:
+
+- Archive Name: PySide6-Shiboken6-v6.12.0-Corresponding-Source.zip
+- Size: 22,967,132 bytes (21.90 MB)
+- SHA-256 Checksum:
+  483832873e279a2e14e6be7a17cd55ddbd5cafa45f0b5176edb87eaf317835c6
+- Upstream Tag: v6.12.0
+- Upstream Git Commit: f50facb83fc3dc5f3240c854668c7a6dd93871b2
+- Distribution Mechanism: Published alongside the binary release on GitHub Releases:
+  https://github.com/basudevkunwar/curve-speed-potential/releases/tag/v2.7.2
+
+-------------------------------------------------------------------------------
+3. OFFICIAL UPSTREAM REPOSITORIES & VERSION-SPECIFIC SOURCE ARCHIVES
+-------------------------------------------------------------------------------
+The corresponding source code for the exact versions distributed in this package
+can also be directly cloned or downloaded from the official upstream repositories:
+
+1. Qt Toolkit (v6.12.0):
+   - Qt Base Source Archive:
+     https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtbase-everywhere-src-6.12.0.tar.xz
+   - Qt SVG Source Archive:
+     https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtsvg-everywhere-src-6.12.0.tar.xz
+   - Qt PDF Source Archive:
+     https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtwebengine-everywhere-src-6.12.0.tar.xz
+   - Git Tag: https://code.qt.io/cgit/qt/qtbase.git/tag/?h=v6.12.0
+
+2. PySide6 & Shiboken6 (v6.12.0):
+   - Git Clone: git clone --recursive --branch v6.12.0 https://code.qt.io/pyside/pyside-setup.git
+   - Git Web: https://code.qt.io/cgit/pyside/pyside-setup.git/tag/?h=v6.12.0
+
+3. CPython Runtime (v3.14.7):
+   - Source Archive: https://www.python.org/ftp/python/3.14.7/Python-3.14.7.tar.xz
+   - Git Repository: https://github.com/python/cpython/tree/v3.14.7
+
+4. OpenSSL (v3.5.7):
+   - Source Archive: https://github.com/openssl/openssl/releases/tag/openssl-3.5.7
+   - Git Repository: https://github.com/openssl/openssl/tree/openssl-3.5.7
+
+5. SQLite (v3.50.4):
+   - Source Archive: https://www.sqlite.org/2026/sqlite-src-3500400.zip
+   - Website: https://www.sqlite.org/
+
+6. NumPy (v2.5.4):
+   - Source Archive: https://pypi.org/project/numpy/2.5.4/#files
+   - Git Repository: https://github.com/numpy/numpy/releases/tag/v2.5.4
+
+7. Matplotlib (v3.11.2):
+   - Source Archive: https://pypi.org/project/matplotlib/3.11.2/#files
+   - Git Repository: https://github.com/matplotlib/matplotlib/releases/tag/v3.11.2
+
+8. pyPDF (v6.21.2):
+   - Source Archive: https://pypi.org/project/pypdf/6.21.2/#files
+   - Git Repository: https://github.com/py-pdf/pypdf/releases/tag/6.21.2
+
+9. Pillow (v13.0.0):
+   - Source Archive: https://pypi.org/project/pillow/13.0.0/#files
+   - Git Repository: https://github.com/python-pillow/Pillow/releases/tag/13.0.0
+
+10. OpenPyXL (v3.1.5):
+    - Source Archive: https://pypi.org/project/openpyxl/3.1.5/#files
+    - Repository: https://foss.heptapod.net/openpyxl/openpyxl
+
+11. et_xmlfile (v2.0.0):
+    - Source Archive: https://pypi.org/project/et-xmlfile/2.0.0/#files
+
+12. ContourPy (v1.4.0):
+    - Source Archive: https://pypi.org/project/contourpy/1.4.0/#files
+
+13. KiwiSolver (v1.5.1):
+    - Source Archive: https://pypi.org/project/kiwisolver/1.5.1/#files
+
+14. FontTools (v4.67.0):
+    - Source Archive: https://pypi.org/project/fonttools/4.67.0/#files
+
+15. python-dateutil (v3.0.0):
+    - Source Archive: https://pypi.org/project/python-dateutil/3.0.0/#files
+
+16. zstandard (v0.25.0):
+    - Source Archive: https://pypi.org/project/zstandard/0.25.0/#files
+
+17. libffi (v3.4.6):
+    - Source Archive: https://github.com/libffi/libffi/releases/tag/v3.4.6
+
+-------------------------------------------------------------------------------
+4. WRITTEN OFFER FOR CORRESPONDING SOURCE CODE (3-YEAR VALIDITY)
+-------------------------------------------------------------------------------
+In accordance with Section 6(b) of the GNU General Public License v3 and Section 4
+of the GNU Lesser General Public License v3, the developer hereby offers to provide,
+upon written request, a copy of the complete corresponding machine-readable source
+code for all LGPL and GPL components bundled with this software, for a period of
+at least three (3) years from the date of release distribution, on a durable medium
+customarily used for software interchange, for a charge no more than the reasonable
+cost of physically performing source distribution.
+
+Direct inquiries to:
+- Developer: Basudev Kunwar
+- GitHub Repository: https://github.com/basudevkunwar/curve-speed-potential
+- Contact / Issue Tracker: https://github.com/basudevkunwar/curve-speed-potential/issues
+
+NOTE: This offer applies exclusively to third-party open-source libraries.
+The proprietary application source code of IR-CSP is closed-source and is NOT
+available under this offer.
+===============================================================================

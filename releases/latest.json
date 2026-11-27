@@ -1,0 +1,19 @@
+{
+  "algorithm": "Ed25519",
+  "key_id": "ir-csp-release-key-2026-v2",
+  "signature": "05510a7ffd882317f1a72843e99bb9f6ac4f2f9c1abb4f4f8bb9d106500537a0340399e440bd1e6b075e71fa3ddfb51ec8787cd2e73adfdaf558b23e06cfe605",
+  "payload": {
+    "schema_version": 1,
+    "application_id": "indian-railways-curve-speed-potential",
+    "target_version": "2.7.2",
+    "sequence_number": 2702,
+    "issued_at": 1795772198,
+    "expires_at": 1803548198,
+    "minimum_supported_version": "2.2.0",
+    "package_filename": "IR-CSP_v2.7.2_Windows_Portable.zip",
+    "package_sha256": "b368b571b5f67f1ea5564690610f28d632561d05b8cd7034f0e5fd134735cf80",
+    "package_size": 87397660,
+    "download_page_url": "https://github.com/basudevkunwar/curve-speed-potential/releases/download/v2.7.2/IR-CSP_v2.7.2_Windows_Portable.zip",
+    "key_id": "ir-csp-release-key-2026-v2"
+  }
+}

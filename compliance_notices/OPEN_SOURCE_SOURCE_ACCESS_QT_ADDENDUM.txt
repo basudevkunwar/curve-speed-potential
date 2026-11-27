@@ -1,0 +1,70 @@
+===============================================================================
+CURVE SPEED POTENTIAL ASSESSMENT TOOL (IR-CSP v2.7.2)
+Developer: Basudev Kunwar | Organization: ToolsNp (basudevkunwar.com.np)
+===============================================================================
+
+CORRESPONDING SOURCE ACCESS ADDENDUM — QT 6.12.0 & QT PDF (6.140.0)
+Compliance Reference: GNU LGPLv3 Section 4 / GPLv3 Section 6(d)
+===============================================================================
+
+PURPOSE
+-------
+This addendum supplements OPEN_SOURCE_SOURCE_ACCESS.txt bundled inside
+IR-CSP_v2.7.2_Windows_Portable.zip (which remains unmodified) with the exact,
+HTTP-200 verified official upstream source URLs, SHA-256 digests, and archive
+verification details for every Qt C++ module bundled in the v2.7.2 portable build.
+
+NOTE ON EMBEDDED NOTICE DISCREPANCY
+-----------------------------------
+Inside the immutable v2.7.2 Portable ZIP, OPEN_SOURCE_SOURCE_ACCESS.txt:
+1. Lists qtwebengine-everywhere-src-6.12.0.tar.xz under .../qt/6.12/6.12.0/submodules/
+   (which returns HTTP 404 upstream because Qt publishes QtPdf 6.12.0.140 /
+   6.140.0.0 under qtwebengine/6.140/6.140.0/).
+2. Does not separately list qtimageformats-everywhere-src-6.12.0.tar.xz for the
+   bundled imageformats plugins (qicns.dll, qtga.dll, qtiff.dll, qwbmp.dll, qwebp.dll).
+
+To ensure unambiguous LGPLv3 / GPLv3 Section 6(d) compliance for online binary
+distribution alongside IR-CSP_v2.7.2_Windows_Portable.zip, ALL FOUR verified Qt
+corresponding source archives are hosted directly as GitHub Release assets on v2.7.2.
+
+VERIFIED BUNDLED QT C++ MODULES & CORRESPONDING SOURCE ARCHIVES
+---------------------------------------------------------------
+1. PySide6 & Shiboken6 (v6.12.0)
+   - Bundled binaries: pyside6.abi3.dll, shiboken6.abi3.dll, PySide6/*.pyd, shiboken6/*.pyd
+   - Release asset: PySide6-Shiboken6-v6.12.0-Corresponding-Source.zip
+   - Size: 22,967,132 bytes (4,717 ZIP entries; CRC verified)
+   - SHA-256: 483832873e279a2e14e6be7a17cd55ddbd5cafa45f0b5176edb87eaf317835c6
+
+2. Qt Base (6.12.0)
+   - Bundled binaries: qt6core.dll, qt6gui.dll, qt6widgets.dll, qt6network.dll,
+     platforms/{qwindows,qdirect2d,qminimal,qoffscreen}.dll,
+     styles/qmodernwindowsstyle.dll,
+     imageformats/{qgif,qico,qjpeg}.dll,
+     tls/{qcertonlybackend,qopensslbackend,qschannelbackend}.dll
+   - Upstream URL: https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtbase-everywhere-src-6.12.0.tar.xz
+   - Filename: qtbase-everywhere-src-6.12.0.tar.xz
+   - Size: 51,220,268 bytes (27,584 tar members; .tar.xz stream + CMake + LGPL verified)
+   - SHA-256: a951bd163c7b80fc6b8c88d7668fb56abf91c152373e13c10666763238131307
+
+3. Qt SVG (6.12.0)
+   - Bundled binaries: qt6svg.dll, iconengines/qsvgicon.dll, imageformats/qsvg.dll
+   - Upstream URL: https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtsvg-everywhere-src-6.12.0.tar.xz
+   - Filename: qtsvg-everywhere-src-6.12.0.tar.xz
+   - Size: 2,341,876 bytes (731 tar members; .tar.xz stream + CMake + LGPL verified)
+   - SHA-256: e4ab39534ec97987b1b9b60ef7f4d3253d5912a69f8c713a01753174a4029331
+
+4. Qt Image Formats (6.12.0)
+   - Bundled binaries: imageformats/{qicns,qtga,qtiff,qwbmp,qwebp}.dll
+   - Upstream URL: https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtimageformats-everywhere-src-6.12.0.tar.xz
+   - Filename: qtimageformats-everywhere-src-6.12.0.tar.xz
+   - Size: 1,848,620 bytes (579 tar members; .tar.xz stream + CMake + LGPL verified)
+   - SHA-256: 0943132b5db8de6b6a7f1d162682173e8763c7ed94e80fd39113292845f67762
+
+5. Qt Pdf / Qt WebEngine Submodule (6.140.0 / PySide6_Pdf 6.12.0.140)
+   - Bundled binaries: qt6pdf.dll (ProductVersion 6.140.0.0), imageformats/qpdf.dll
+   - Upstream URL: https://download.qt.io/official_releases/qtwebengine/6.140/6.140.0/src/qtwebengine-everywhere-src-6.140.0.tar.xz
+   - Filename: qtwebengine-everywhere-src-6.140.0.tar.xz
+   - Size: 582,133,608 bytes (298,817 tar members; .tar.xz stream + CMake + LGPL verified)
+   - SHA-256: 82352854a1d01dfe6abeefaf023554e4722c1d7df48ba3ce0078f6c0a9c7e1a3
+
+===============================================================================

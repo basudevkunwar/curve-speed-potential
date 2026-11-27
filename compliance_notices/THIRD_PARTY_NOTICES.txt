@@ -1,0 +1,101 @@
+===============================================================================
+CURVE SPEED POTENTIAL ASSESSMENT TOOL
+Version 2.7.2
+Independently Developed — Unofficial Software
+Developed by Basudev Kunwar
+===============================================================================
+
+THIRD-PARTY SOFTWARE LICENSING NOTICES AND ACKNOWLEDGEMENTS
+
+This binary distribution bundles runtime libraries, graphics engines, and
+components from third-party open-source projects. Each component is redistributed
+under its respective open-source license. Complete copies of all applicable
+license texts are provided in the 'THIRD_PARTY_LICENSES/' directory.
+
+-------------------------------------------------------------------------------
+1. LGPLv3 COMPONENTS: PYSIDE6, SHIBOKEN6 & QT LIBRARIES
+-------------------------------------------------------------------------------
+This product includes software developed by The Qt Company Ltd. and the Qt Project
+(https://www.qt.io/).
+- Components: PySide6 (v6.12.0), Shiboken6 (v6.12.0), and Qt shared libraries
+  (QtCore, QtGui, QtWidgets, QtNetwork, QtSvg, QtPdf) and platform plugins.
+- License: GNU Lesser General Public License (LGPL) version 3.
+- Text: See 'THIRD_PARTY_LICENSES/LGPLv3.txt', 'THIRD_PARTY_LICENSES/GPLv3.txt',
+  and 'THIRD_PARTY_LICENSES/Qt-GPL-exception-1.0.txt'.
+- Dynamically Linked / Shared Library Architecture:
+  All PySide6, Shiboken6, and Qt components are distributed as dynamic shared
+  libraries (*.dll and *.pyd) in the 'curve_speed_potential_v2/' directory.
+- User Replaceability & Relinking Rights:
+  In compliance with LGPLv3 Section 4, users have the right to modify these
+  shared libraries and execute this application with their modified versions.
+- Corresponding Source Code:
+  Packaged as release asset 'PySide6-Shiboken6-v6.12.0-Corresponding-Source.zip'
+  and detailed in 'OPEN_SOURCE_SOURCE_ACCESS.txt'.
+
+-------------------------------------------------------------------------------
+2. PYTHON RUNTIME (CPYTHON)
+-------------------------------------------------------------------------------
+- Component: CPython Runtime (v3.14.7)
+- License: Python Software Foundation (PSF) License Agreement
+- Copyright: (c) 2001-2026 Python Software Foundation. All Rights Reserved.
+- Text: See 'THIRD_PARTY_LICENSES/CPython-PSF-3.14.txt'.
+
+-------------------------------------------------------------------------------
+3. OPENSSL RUNTIME
+-------------------------------------------------------------------------------
+- Components: libcrypto-3.dll, libssl-3.dll (v3.5.7)
+- License: Apache License, Version 2.0
+- Copyright (c) 1998-2026 The OpenSSL Project Authors. All rights reserved.
+- Text: See 'THIRD_PARTY_LICENSES/OpenSSL.txt' and 'THIRD_PARTY_LICENSES/Apache-2.0.txt'.
+
+-------------------------------------------------------------------------------
+4. SQLITE DATABASE ENGINE
+-------------------------------------------------------------------------------
+- Component: SQLite Embedded Database (v3.50.4)
+- License: Public Domain Dedication
+- 2001-09-15: The author disclaims copyright to this source code.
+- Text: See 'THIRD_PARTY_LICENSES/SQLite3_Public_Domain.txt'.
+
+-------------------------------------------------------------------------------
+5. PERMISSIVE OPEN SOURCE LIBRARIES
+-------------------------------------------------------------------------------
+- Matplotlib (v3.11.2): PSF-based license. Copyright (c) 2002-2026 Matplotlib developers.
+  Text: 'THIRD_PARTY_LICENSES/matplotlib_LICENSE'.
+- NumPy (v2.5.4): BSD 3-Clause. Copyright (c) 2005-2026 NumPy Developers.
+  Text: 'THIRD_PARTY_LICENSES/numpy_LICENSE.txt'.
+- pyPDF (v6.21.2): BSD 3-Clause. Copyright (c) 2006-2008 Mathieu Fenniak; pyPDF team.
+  Text: 'THIRD_PARTY_LICENSES/pypdf_LICENSE'.
+- Pillow (v13.0.0): HPND License. Copyright (c) 1997-2026 Secret Labs AB and Jeffrey A. Clark.
+  Text: 'THIRD_PARTY_LICENSES/pillow_LICENSE'.
+- OpenPyXL (v3.1.5): MIT License. Copyright (c) 2010 openpyxl.
+  Text: 'THIRD_PARTY_LICENSES/openpyxl_LICENCE.rst'.
+- et_xmlfile (v2.0.0): MIT License. Copyright (c) 2010 et_xmlfile.
+  Text: 'THIRD_PARTY_LICENSES/et-xmlfile_LICENCE.rst'.
+- ContourPy (v1.4.0): BSD 3-Clause. Copyright (c) 2021-2026 ContourPy Developers.
+  Text: 'THIRD_PARTY_LICENSES/contourpy_LICENSE'.
+- KiwiSolver (v1.5.1): BSD 3-Clause. Copyright (c) 2013-2026 Nucleic Development Team.
+  Text: 'THIRD_PARTY_LICENSES/kiwisolver_LICENSE'.
+- FontTools (v4.67.0): MIT License. Copyright (c) 2017 Just van Rossum.
+  Text: 'THIRD_PARTY_LICENSES/fonttools_LICENSE'.
+- python-dateutil (v3.0.0): Apache 2.0 / Dual BSD. Copyright (c) 2017- dateutil contributors.
+  Text: 'THIRD_PARTY_LICENSES/python-dateutil_LICENSE'.
+- zstandard (v0.25.0): BSD 3-Clause. Copyright (c) 2016-2026 Gregory Szorc.
+  Text: 'THIRD_PARTY_LICENSES/zstandard_LICENSE'.
+- libffi (v3.4.6): MIT License. Copyright (c) 1996-2026 Anthony Green, Red Hat, Inc and others.
+  Text: 'THIRD_PARTY_LICENSES/libffi_LICENSE.txt'.
+
+-------------------------------------------------------------------------------
+6. MICROSOFT VISUAL C++ RUNTIME
+-------------------------------------------------------------------------------
+- Components: vcruntime140.dll, msvcp140.dll, msvcp140_1.dll, msvcp140_2.dll (v14.44)
+- License: Microsoft Visual Studio 2022 Redistributable Software License Terms.
+- Text: See 'THIRD_PARTY_LICENSES/MSVC_REDIST_EULA.txt'.
+
+-------------------------------------------------------------------------------
+7. BUNDLED FONTS
+-------------------------------------------------------------------------------
+- DejaVu Sans / Serif: Bitstream Vera & Arev Fonts License.
+  Text: 'THIRD_PARTY_LICENSES/matplotlib_LICENSE_DEJAVU'.
+- STIX Fonts: SIL Open Font License 1.1.
+  Text: 'THIRD_PARTY_LICENSES/matplotlib_LICENSE_STIX'.
+===============================================================================

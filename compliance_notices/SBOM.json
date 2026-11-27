@@ -1,0 +1,366 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:7c9e6b41-2a14-4e89-9a72-68c12b84ef19",
+  "version": 2,
+  "metadata": {
+    "timestamp": "2026-11-27T09:36:03Z",
+    "tools": [
+      {
+        "vendor": "Independently Developed",
+        "name": "IR-CSP Release Compliance Tool",
+        "version": "2.7.2"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "Curve Speed Potential Assessment Tool",
+      "version": "2.7.2",
+      "description": "Independently developed, unofficial curve speed potential engineering calculation and comparison utility.",
+      "author": "Basudev Kunwar",
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary / Closed Source Application with Permissive & LGPL Third-Party Exceptions"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "build:python",
+        "value": "3.14.7"
+      },
+      {
+        "name": "build:nuitka",
+        "value": "4.3.5"
+      },
+      {
+        "name": "build:compiler",
+        "value": "~\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\downloads\\pip\\private-49c291cb\\Lib\\site-packages\\ziglang\\zig.exe (zig.exe 0.17.1)."
+      },
+      {
+        "name": "build:platform",
+        "value": "Windows-11-10.0.26300-SP0"
+      },
+      {
+        "name": "dist:python_dll",
+        "value": "python314.dll"
+      },
+      {
+        "name": "dist:openssl_dlls",
+        "value": "libcrypto-3.dll, libssl-3.dll"
+      },
+      {
+        "name": "dist:libffi_dll",
+        "value": "libffi-8.dll"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "framework",
+      "name": "Python (CPython)",
+      "version": "3.14.7",
+      "purl": "pkg:generic/cpython@3.14.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Python-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Python Software Foundation"
+      }
+    },
+    {
+      "type": "library",
+      "name": "PySide6",
+      "version": "6.12.0",
+      "purl": "pkg:pypi/pyside6@6.12.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-only"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "The Qt Company Ltd."
+      }
+    },
+    {
+      "type": "library",
+      "name": "Shiboken6",
+      "version": "6.12.0",
+      "purl": "pkg:pypi/shiboken6@6.12.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-only"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "The Qt Company Ltd."
+      }
+    },
+    {
+      "type": "library",
+      "name": "Qt Libraries & Plugins (Core, GUI, Widgets, Network, SVG, PDF)",
+      "version": "6.12.0",
+      "purl": "pkg:generic/qt@6.12.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-only"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "The Qt Company Ltd."
+      }
+    },
+    {
+      "type": "library",
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "purl": "pkg:pypi/openpyxl@3.1.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Eric Gazoni and Charlie Clark"
+      }
+    },
+    {
+      "type": "library",
+      "name": "et_xmlfile",
+      "version": "2.0.0",
+      "purl": "pkg:pypi/et-xmlfile@2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Charlie Clark"
+      }
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "3.11.2",
+      "purl": "pkg:pypi/matplotlib@3.11.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "PSF-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Matplotlib Development Team"
+      }
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "2.5.4",
+      "purl": "pkg:pypi/numpy@2.5.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "NumPy Developers"
+      }
+    },
+    {
+      "type": "library",
+      "name": "pypdf",
+      "version": "6.21.2",
+      "purl": "pkg:pypi/pypdf@6.21.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Mathieu Fenniak and pypdf contributors"
+      }
+    },
+    {
+      "type": "library",
+      "name": "Pillow",
+      "version": "13.0.0",
+      "purl": "pkg:pypi/pillow@13.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "HPND"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Jeffrey A. Clark and Pillow Contributors"
+      }
+    },
+    {
+      "type": "library",
+      "name": "contourpy",
+      "version": "1.4.0",
+      "purl": "pkg:pypi/contourpy@1.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Ian Thomas and ContourPy Developers"
+      }
+    },
+    {
+      "type": "library",
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "purl": "pkg:pypi/kiwisolver@1.5.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "The Nucleic Development Team"
+      }
+    },
+    {
+      "type": "library",
+      "name": "fonttools",
+      "version": "4.67.0",
+      "purl": "pkg:pypi/fonttools@4.67.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Just van Rossum and FontTools Contributors"
+      }
+    },
+    {
+      "type": "library",
+      "name": "python-dateutil",
+      "version": "3.0.0",
+      "purl": "pkg:pypi/python-dateutil@3.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Gustavo Niemeyer and dateutil contributors"
+      }
+    },
+    {
+      "type": "library",
+      "name": "zstandard",
+      "version": "0.25.0",
+      "purl": "pkg:pypi/zstandard@0.25.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Gregory Szorc"
+      }
+    },
+    {
+      "type": "library",
+      "name": "SQLite",
+      "version": "3.50.4",
+      "purl": "pkg:generic/sqlite@3.50.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "blessing"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "D. Richard Hipp and SQLite contributors"
+      }
+    },
+    {
+      "type": "library",
+      "name": "OpenSSL",
+      "version": "3.5.7",
+      "purl": "pkg:generic/openssl@3.5.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "The OpenSSL Project"
+      }
+    },
+    {
+      "type": "library",
+      "name": "libffi",
+      "version": "3.4.6",
+      "purl": "pkg:generic/libffi@3.4.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Anthony Green and libffi contributors"
+      }
+    },
+    {
+      "type": "library",
+      "name": "Microsoft Visual C++ Runtime",
+      "version": "14.44",
+      "purl": "pkg:generic/msvc-redist@14.44",
+      "licenses": [
+        {
+          "license": {
+            "name": "Microsoft Software License Terms"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Microsoft Corporation"
+      }
+    }
+  ]
+}

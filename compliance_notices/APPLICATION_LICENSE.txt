@@ -1,0 +1,54 @@
+===============================================================================
+CURVE SPEED POTENTIAL ASSESSMENT TOOL
+Version 2.7.2
+Independently Developed — Unofficial Software
+Developed by Basudev Kunwar
+===============================================================================
+
+PROPRIETARY APPLICATION END USER LICENSE AGREEMENT (EULA)
+
+1. GRANT OF LICENSE
+The developer, Basudev Kunwar, grants you a personal, worldwide, non-exclusive,
+royalty-free license to download, install, and execute the compiled binary of
+the Curve Speed Potential Assessment Tool (IR-CSP v2.7.2) solely for legitimate
+railway permanent way engineering calculation, curve analysis, research, and
+educational purposes.
+
+2. CLOSED SOURCE PROPRIETARY RESTRICTIONS
+Except as expressly permitted by mandatory open-source licenses governing bundled
+components or by applicable law:
+- You may not decompile, disassemble, extract, or reverse-engineer the proprietary
+  source code, internal algorithms, or scoring logic of the application.
+- You may not sell, lease, rent, sublicense, or commercially exploit this software
+  as a paid standalone product without prior written consent from the developer.
+- You may not distribute unauthorized modified versions of the proprietary
+  application binary.
+
+3. PRESERVATION OF LGPL & THIRD-PARTY RIGHTS
+Nothing in this license shall be construed to limit or override rights granted
+to you under third-party open-source licenses. Specifically:
+- Under GNU LGPLv3 Section 4, you retain the unrestricted right to modify, recompile,
+  and replace the bundled dynamically linked PySide6, Shiboken6, and Qt shared
+  libraries (*.dll and *.pyd) and run this application with your modified libraries.
+- You are permitted to perform reverse engineering solely to the extent necessary
+  for debugging modifications made to those LGPL-licensed libraries.
+
+4. UNOFFICIAL SOFTWARE & RAILWAY SAFETY DISCLAIMER
+This software is an independent development by Basudev Kunwar. It is NOT an
+official product of Indian Railways, the Ministry of Railways, the Railway Board,
+or RDSO. No government endorsement or official departmental sanction is implied.
+
+All calculation outputs, permissible speed recommendations, equilibrium cants,
+and transition lengths are engineering evaluations based on IRPWM June 2020 ACS-07,
+IRSOD 2022, and RDSO Technical Monograph 51. They do NOT constitute formal
+statutory authorization or sanction to alter train speeds or curve infrastructure.
+Final decisions remain subject to competent authority approvals, site inspection,
+and approved railway permanent-way plans.
+
+5. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR
+IN CONNECTION WITH THE USE OR DISTRIBUTION OF THIS SOFTWARE.
+===============================================================================

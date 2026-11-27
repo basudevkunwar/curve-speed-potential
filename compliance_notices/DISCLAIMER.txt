@@ -1,0 +1,28 @@
+===============================================================================
+CURVE SPEED POTENTIAL ASSESSMENT TOOL
+Version 2.7.2
+Independently Developed — Unofficial Software
+Developer: Basudev Kunwar | Organization: ToolsNp (https://basudevkunwar.com.np)
+===============================================================================
+
+INDEPENDENT SOFTWARE & ENGINEERING ASSESSMENT DISCLAIMER
+
+1. NO OFFICIAL AFFILIATION OR ENDORSEMENT
+This application ("Curve Speed Potential Assessment Tool", IR-CSP v2.7.2) is an
+independent engineering calculation and comparison utility developed by Basudev
+Kunwar. It is NOT developed, owned, approved, certified, endorsed, or officially
+issued by Indian Railways, the Ministry of Railways, the Government of India,
+RDSO, CRS, or any statutory railway authority.
+
+2. TECHNICAL STANDARDS AS CALCULATION BASELINES
+References to engineering manuals (such as IRPWM 2024 incorporating ACS-07,
+IRSOD 2022, and RDSO Technical Monograph 51) represent mathematical calculation
+formulas and limit parameters only.
+
+3. NOT AN OPERATIONAL SANCTION OR APPROVAL
+Calculated speed potentials, equilibrium cants, cant deficiencies/excesses,
+transition lengths, spiral shifts, and PDF/Excel reports are analytical outputs
+under user-entered inputs and assumptions. They do NOT constitute speed
+sanction, track certification, engineering closure, or permission to operate 
+surveys, and applicable railway rules remain solely controlling.
+===============================================================================

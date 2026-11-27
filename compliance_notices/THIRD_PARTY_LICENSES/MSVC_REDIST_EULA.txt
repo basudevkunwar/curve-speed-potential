@@ -1,0 +1,47 @@
+MICROSOFT SOFTWARE LICENSE TERMS
+MICROSOFT VISUAL C++ 2015-2022 RUNTIME REDISTRIBUTABLE
+
+These license terms are an agreement between Microsoft Corporation (or based on where you live, one of its affiliates) and you. They apply to the software named above. The terms also apply to any Microsoft services or updates for the software, except to the extent those have different terms.
+
+IF YOU COMPLY WITH THESE LICENSE TERMS, YOU HAVE THE RIGHTS BELOW.
+
+1. INSTALLATION AND USE RIGHTS.
+You may install and use any number of copies of the software on your devices.
+
+2. REDISTRIBUTION.
+You may copy and distribute the object code form of code listed on the REDIST.TXT list (including vcruntime140.dll, msvcp140.dll, and related runtime binaries).
+Distribution Requirements: For any code you distribute, you must:
+(a) add significant primary functionality to it in your programs;
+(b) require distributors and external end users to agree to terms that protect the code at least as much as this agreement;
+(c) display your valid copyright notice on your programs; and
+(d) indemnify, defend, and hold harmless Microsoft from any claims, including attorneys' fees, related to the distribution or use of your programs.
+
+3. SCOPE OF LICENSE.
+The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. Unless applicable law gives you more rights despite this limitation, you may use the software only as expressly permitted in this agreement. In doing so, you must comply with any technical limitations in the software that only allow you to use it in certain ways. You may not:
+- work around any technical limitations in the software;
+- reverse engineer, decompile or disassemble the software, except and only to the extent that applicable law expressly permits, despite this limitation;
+- make more copies of the software than specified in this agreement or allowed by applicable law, despite this limitation;
+- publish the software for others to copy;
+- rent, lease or lend the software; or
+- use the software for commercial software hosting services.
+
+4. EXPORT RESTRICTIONS.
+The software is subject to United States export laws and regulations. You must comply with all domestic and international export laws and regulations that apply to the software. These laws include restrictions on destinations, end users and end use. For additional information, see https://www.microsoft.com/exporting.
+
+5. SUPPORT SERVICES.
+Because this software is "as is," Microsoft may not provide support services for it.
+
+6. ENTIRE AGREEMENT.
+This agreement, and the terms for supplements, updates, Internet-based services and support services that you use, are the entire agreement for the software and support services.
+
+7. APPLICABLE LAW.
+If you acquired the software in the United States, Washington state law governs the interpretation of this agreement and applies to claims for breach of it, regardless of conflict of laws principles. The laws of the state where you live govern all other claims, including claims under state consumer protection laws, unfair competition laws, and in tort.
+
+8. LEGAL EFFECT.
+This agreement describes certain legal rights. You may have other rights under the laws of your country. You may also have rights with respect to the party from whom you acquired the software. This agreement does not change your rights under the laws of your country if the laws of your country do not permit it to do so.
+
+9. DISCLAIMER OF WARRANTY.
+THE SOFTWARE IS LICENSED "AS-IS." YOU BEAR THE RISK OF USING IT. MICROSOFT GIVES NO EXPRESS WARRANTIES, GUARANTEES OR CONDITIONS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAWS, MICROSOFT EXCLUDES THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+10. LIMITATION ON AND EXCLUSION OF REMEDIES AND DAMAGES.
+YOU CAN RECOVER FROM MICROSOFT AND ITS SUPPLIERS ONLY DIRECT DAMAGES UP TO U.S. $5.00. YOU CANNOT RECOVER ANY OTHER DAMAGES, INCLUDING CONSEQUENTIAL, LOST PROFITS, SPECIAL, INDIRECT OR INCIDENTAL DAMAGES.
