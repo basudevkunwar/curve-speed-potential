@@ -114,6 +114,14 @@ The application is structured into streamlined functional tabs:
    - **Sub-Tab 1: Baseline Assessment & Telemetry:** Diagnostic Candidates Speed Hierarchy table, enriched track physical telemetry (theoretical vs measured versine, cant gradients, rates of cant change), and dual cryptographic SHA-256 hashes.
    - **Sub-Tab 2: Remediation Workshop:** Zero-popup target speed evaluation ($V_{\text{target}}$) with side-by-side 4-alternative feasibility matrix (Operational Revision, Cant Optimization, Transition Extension, Realignment).
 
+<img width="1919" height="1032" alt="01" src="https://github.com/user-attachments/assets/4206a583-7362-41b8-a0b6-9f97ddeb6aa8" />
+<img width="1910" height="719" alt="02" src="https://github.com/user-attachments/assets/77debcf2-3edc-4822-b522-cba94034a780" />
+<img width="1903" height="1031" alt="03" src="https://github.com/user-attachments/assets/d4ee662e-1094-4430-a659-08fee76ff03c" />
+<img width="1913" height="1007" alt="04" src="https://github.com/user-attachments/assets/ced0a037-1999-40f9-b6c8-cfb61b84b964" />
+<img width="1915" height="1005" alt="05" src="https://github.com/user-attachments/assets/da692934-3455-4c12-86a7-c078849a27b1" />
+<img width="1919" height="1035" alt="06" src="https://github.com/user-attachments/assets/aa00008b-9805-4746-ace9-99fb9ed2c99c" />
+<img width="1911" height="1035" alt="07" src="https://github.com/user-attachments/assets/f28324f1-4095-4711-96c7-e7f1dc0308cf" />
+
 ---
 
 ## Installation & Execution
@@ -125,6 +133,7 @@ The application is structured into streamlined functional tabs:
   ```bash
   pip install -r requirements.txt
   ```
+
 
 ### Quick Start
 ```bash
